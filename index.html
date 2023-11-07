@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        <!-- FirstName -->
+        <label for="FirstName">Firstname:</label>
+        <input type="text" id="FirstName" name="Firstname">
+        <br><br>
+
+        <!-- MiddleName -->
+        <label for="MiddleName">Middlename:</label>
+        <input type="text" id="MiddleName" name="Middlename">
+        <br><br>
+
+        <!-- LastName -->
+        <label for="LastName">Lastname:</label>
+        <input type="text" id="LastName" name="Lastname">
+        <br><br>
+
+        <!-- Courses -->
+        <label for="Course">Course:</label>
+        <select name="course" id="Course">
+            <option >Course</option>
+            <option >BCA</option>
+            <option >BBA</option>
+            <option >B.Tech</option>
+            <option >MBA</option>
+            <option >MCA</option>
+            <option >M.Tech</option>
+        </select>
+        <br><br>
+
+        <!-- Gender -->
+        <label for="Gender">Gender:</label>
+        <br>
+        <input type="radio" name="gender" id="Male">
+        <label for="Male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="Female">
+        <label for="Female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="Other">
+        <label for="Other">Other</label>
+        <br><br>
+
+        <!-- DOB -->
+        <label for="DOB">DOB:</label>
+        <input type="datetime-local" name="dob" id="DOB">
+        <br><br>
+
+        <!-- Phone -->
+        <label for="Phone">Phone:</label>
+        <input type="text" placeholder="+91" disabled size="1">
+        <input type="text" id="Phone" maxlength="10" size="10">
+        <br><br>
+
+        <!-- Address -->
+        <label for="Address">Address:</label> <br>
+        <textarea name="address" id="Address" cols="80" rows="5"></textarea>
+        <br><br>
+
+        <!-- Email -->
+        <label for="Email">Email:</label>
+        <input type="email" name="email" id="Email">
+        <br><br>
+
+        <!-- Password -->
+        <label for="Password">Password:</label>
+        <input type="password" name="password" id="Password">
+        <br><br>
+
+        <!-- Re-type Password -->
+        <label for="Re-type Password">Re-type Password:</label>
+        <input type="password" name="Re-type Pass" id="Re-type Password">
+        <br><br>
+
+        <!-- Terms and Conditions -->
+        <input type="checkbox" name="terms" id="Terms">
+        <label for="Terms">Agree to terms and conditions</label>
+        <br><br>
+
+        <!-- Choose File -->
+        <label for="Choose File">Choose File:</label>
+        <input type="file" name="file" id="Choose File" multiple>
+        <br><br>
+
+        <!-- Choose Color -->
+        <label for="Choose Color">Choose Color:</label>
+        <input type="color" name="Color" id="Choose Color">
+        <br><br>
+
+        <!-- Reset -->
+        <input type="reset" value="Reset">
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+
+    </fieldset>
+</body>
+</html>
